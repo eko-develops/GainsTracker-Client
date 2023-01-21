@@ -7,18 +7,21 @@ import Exercises from './pages/Exercises';
 import Workouts from './pages/Workouts';
 
 import Header from './components/Header';
+import { Container } from 'react-bootstrap';
 
 function App() {
 	return (
 		<>
 			<Header />
-			<main className="col-sm-6 col-md-6 m-auto">
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/exercises" element={<Exercises />} />
-					<Route path="/workouts" element={<Workouts />} />
-				</Routes>
-			</main>
+			<Container className="col-8 m-auto">
+				<main>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/exercises" element={<Exercises />} />
+						<Route path="/workouts" element={<Workouts />} />
+					</Routes>
+				</main>
+			</Container>
 		</>
 	);
 }

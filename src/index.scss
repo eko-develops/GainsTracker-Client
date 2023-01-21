@@ -7,9 +7,12 @@
 			display: flex;
 
 			main {
-				min-height: 80vh;
-				background: #212529;
 				border-radius: 4px;
+
+				.content-wrapper {
+					min-height: 80vh;
+					background: #212529;
+				}
 			}
 		}
 	}
