@@ -7,9 +7,9 @@ interface PageLayoutProps {
 
 function PageLayout({ pageName, children }: PageLayoutProps) {
 	return (
-		<Container>
-			<h1 className="py-2 px-4 fw-bold">{pageName}</h1>
-			<div className="content-wrapper p-4">{children}</div>
+		<Container className="col-12 ">
+			<h1 className="p-4 fw-bold">{pageName}</h1>
+			<div className="content-wrapper p-4 rounded-3 shadow">{children}</div>
 		</Container>
 	);
 }

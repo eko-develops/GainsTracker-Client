@@ -12,15 +12,13 @@ import { Container } from 'react-bootstrap';
 function App() {
 	return (
 		<>
-			<Header />
-			<Container className="col-8 m-auto">
-				<main>
-					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="/exercises" element={<Exercises />} />
-						<Route path="/workouts" element={<Workouts />} />
-					</Routes>
-				</main>
+			{/* <Header /> */}
+			<Container as="main">
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/exercises" element={<Exercises />} />
+					<Route path="/workouts" element={<Workouts />} />
+				</Routes>
 			</Container>
 		</>
 	);
