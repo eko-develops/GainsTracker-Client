@@ -5,32 +5,6 @@ function Home() {
 			<ul>
 				<li>quick actions like create an exercise/workout</li>
 				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
-				<li>quick actions like create an exercise/workout</li>
-				<li>charts and graphs for progression</li>
 			</ul>
 		</PageLayout>
 	);

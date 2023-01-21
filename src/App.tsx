@@ -8,11 +8,13 @@ import Workouts from './pages/Workouts';
 
 import Header from './components/Header';
 import { Container } from 'react-bootstrap';
+import OffCanvas from './components/OffCanvas';
 
 function App() {
 	return (
 		<>
 			{/* <Header /> */}
+			<OffCanvas />
 			<Container as="main">
 				<Routes>
 					<Route path="/" element={<Home />} />
