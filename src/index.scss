@@ -1,9 +1,16 @@
 :root {
-	font-family: Arial;
-
 	body {
-		min-height: 100vh;
-		background-color: #222;
+		background-color: #1d2023;
 		color: #fff;
+		#root {
+			min-height: 100vh;
+			display: flex;
+
+			main {
+				min-height: 80vh;
+				background: #212529;
+				border-radius: 4px;
+			}
+		}
 	}
 }

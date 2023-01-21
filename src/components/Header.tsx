@@ -1,22 +1,19 @@
-import { Link } from 'react-router-dom';
+import { Navbar, Container } from 'react-bootstrap';
+import Nav from './Nav';
+
 function Header() {
 	return (
-		<header>
-			<div className="brand">brand</div>
-			<nav>
-				<ul>
-					<li>
-						<Link to="/">Home</Link>
-					</li>
-					<li>
-						<Link to="/exercises">Exercises</Link>
-					</li>
-					<li>
-						<Link to="/workouts">Workouts</Link>
-					</li>
-				</ul>
-			</nav>
-		</header>
+		<Navbar
+			className="col-sm-4 col-md-2 col-lg-2"
+			as="header"
+			bg="dark"
+			variant="dark"
+		>
+			<Container className="d-flex flex-column min-vh-100 justify-content-start">
+				<Navbar.Brand>PPL</Navbar.Brand>
+				<Nav />
+			</Container>
+		</Navbar>
 	);
 }
 

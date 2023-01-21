@@ -1,23 +1,25 @@
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Exercises from './pages/Exercises';
-import Home from './pages/Home';
-import Workouts from './pages/Workouts';
 import { Routes, Route } from 'react-router-dom';
+
+import './App.scss';
+
+import Home from './pages/Home';
+import Exercises from './pages/Exercises';
+import Workouts from './pages/Workouts';
+
+import Header from './components/Header';
 
 function App() {
 	return (
-		<div className="app-container">
+		<>
 			<Header />
-			<main>
+			<main className="col-sm-6 col-md-6 m-auto">
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/exercises" element={<Exercises />} />
 					<Route path="/workouts" element={<Workouts />} />
 				</Routes>
 			</main>
-			<Footer />
-		</div>
+		</>
 	);
 }
 
